@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Pixelify+Sans:wght@400..700&display=swap" rel="stylesheet">
+    <title>VampireTale</title>
+</head>
+<body>
+    <main>
+        <div class="passo ativo" id="passo-0">
+            <img src="img/cenario passo-0.png" alt="">
+            <p> Você, uma pessoa qualquer, caminhava entre as montanhas, com o intuito de subi-la. Porém, enquanto subia, você acaba caindo em um buraco profundo, te levando a um novo lugar desconhecido, um lugar determinado como "Subterrâneo". Você:</p>
+            <button class="btn-proximo" data-proximo="1">Tenta escalar de volta para o topo</button>
+            <button class="btn-proximo" data-proximo="2">Segue em frente, destemido a encontrar uma saída</button>
+        </div>
+        <div class="passo" id="passo-1" >
+            <p>Você tenta escalar de volta de onde caiu, embora seja muito alto e muito íngreme para que seja possível. Então, você escuta um barulho atrás de você. Você:</p>
+            <button class="btn-proximo" data-proximo="3">Investiga</button>
+            <button class="btn-proximo" data-proximo="4">Continua a tentar escalar</button>
+        </div>
+        <div class="passo" id="passo-2">
+             <p>Quando você segue em frente, percebe que as paredes vão ficando mais escuras, o chão mais úmido. Até que um baque é ouvido, você se vira assustado, encontrando o rosto de uma pessoa que nunca viu na vida, entretanto, sua aparência era.. meio estranha. Você:</p>
+             <button class="btn-proximo" data-proximo="5">Tenta parecer amigável e buscar informações com o estranho</button>
+             <button class="btn-proximo" data-proximo="6">O ataca em busca de sobrevivência</button>
+        </div>
+        <div class="passo" id="passo-3">
+            <p>Quando você investiga o barulho, você segue por um caminho, chegando a um lago, que por algum motivo estava no meio dessa caverna. Entretanto, o barulho parece vir de dentro dele. Você:</p>
+            <button class="btn-proximo" data-proximo="7">Aproxima o rosto do lago, querendo ver o que tem ali</button>
+            <button class="btn-proximo" data-proximo="2">Segue em frente, ignorando o barulho</button>
+        </div>
+        <div class="passo" id="passo-4">
+            <p>Mesmo com todo seu esforço, você percebe que não há caminho de volta, não por esse lado, então, a sua única opção é seguir em frente, não valendo a pena esperar por tanto tempo ali</p>
+            <button class="btn-proximo" data-proximo="2">Seguir em frente</button>
+        </div>
+        <div class="passo" id="passo-5"
+             <p>Quando você inicia uma conversa com o estranho, ele se apresenta: "O meu nome é Dante, é um prazer conhecê-lo. Entretanto, temo que sua presença aqui não é correta, o que houve?". Você:</p>
+             <button class="btn-proximo" data-proximo="8">Conta a verdade para Dante, dizendo que caiu em um buraco e precisava de ajuda</button>
+             <button class="btn-proximo" data-proximo="9">Mente para ele, dizendo que é alguém muito poderoso e que veio para conhecer o rei, se supostamente tiver um, nesse lugar</button>
+    </div>
+    <div class="passo" id="passo-6">
+        <p>Quando você ataca o desconhecido, o tempo de reação dele é rápido o suficiente para que ele te nocauteie no chão, sem te dar chanches de ao menos encostar nele. "Estranhos como você não são bem vindos", é o que o estranho diz, antes de perfurar o seu pescoço com suas presas vampíricas.</p>
+        <button class="btn-proximo" data-proximo="0">FIM DE JOGO</button>
+    </div>
+       <div class="passo" id="passo-7">
+       <p>Quando você aproxima o rosto do lago, você consegue ver uma breve sombra na água, embora o lugar fosse escuro. Então, por curiosidade, você estende a mão para a água, mas antes que possa tirar, você é puxado para dentro do lago por algo desconhecido. A sua última visão é a leve claridade de fora, antes de tudo se apagar e você ser esquecido para sempre naquele lago.</p>
+       <button class="btn-proximo" data-proximo="0">FIM DE JOGO</button>
+    </div>
+    <div class="passo" id="passo-8">
+        <P>"Então foi isso que ocorreu? Entendo.. você não é o primeiro a cair nesse lugar esquecido por todos" ele diz, enquanto te observa "Porém, acho que posso ser capaz de ajudá-lo, temos um protocolo para todos que cairam aqui. Por favor, me siga"</P>
+        <button class="btn-proximo" data-proximo="10"> Você segue Dante, esperançoso que conseguiria ajuda para sair daqui</button>
+    </div>
+    <div class="passo" id="passo-9">
+        <p>O homem te olha com uma leve desconfiança, mas aceita o fato de que talvez você diga a verdade. "Certo, me acompanhe por favor, o rei te aguarda"</p>
+        <button class="btn-proximo" data-proximo="11">Você segue Dante, pensando que mentir era a melhor opção para a situação atual</button>
+    </div>
+    <div class="passo" id="passo-10">
+        <p>Você seguiu aquele homem por muito tempo, pensando para onde ele o levaria, mas não é como se você tivesse alguma escolha, ele era sua única salvação daquele lugar. Conforme você caminhava, você podia notar algumas casas ao redor, alguns moradores.. mas não parecia ser o destino de Dante. Então, mais a frente, ele finalmente para, vendo um castelo a distância."Aquele é o seu destino". Ele diz, enquanto caminha para frente do castelo.</p>
+        <button class="btn-proximo" data-proximo="12">Aquele castelo era assustador na sua percepção, mas não tinha mais para onde ir. Então, você o segue para dentro</button>
+    </div>
+    <div class="passo" id="passo-11">
+        <p>Você seguiu aquele homem por muito tempo, pensando para onde ele o levaria, mas você mantem sua postura, afinal, segundo as suas próprias palavras, você era alguém poderoso, não poderia sentir medo de um mero lugar assustador. Então, Dante segue diretamente na direção de um caastelo, um tanto assustador para o seu gosto. Então, ele te olha "Aquele é o seu destino, infelizmente não posso mais lhe acompanhar" ele diz, enquanto começa a se afastar e logo some na escuridão <p>
+        <button class="btn-proximo" data-proximo="13">Você fica meio receoso de ter ficado para trás sozinho, mas você tinha que continuar, era a única escolha. Então, você segue para o castelo</button>
+    </div>
+    <div class="passo" id="passo-12">
+        <p>Assim que você entra naquele lugar, todos os guardas reais ao redor o olham com desconfiança, afinal, você não era como eles. Conforme você caminhava, você notava cada vez mais como eles eram diferentes, como eram palidos.. possuiam veias muito aparentes e dentes.. afiados? Você olhou para Dante, notando as mesmas feições nele, você começou a ficar assustado..</p>
+        <button class="btn-proximo" data-proximo="14">Você decide continuar o caminho, prestes a encontrar o rei</button>
+        <button class="btn-proximo" data-proximo="15">Você começa a ficar assustado, assustado demais. Talvez seja apenas coisa da sua cabeça, mas você sente que todos ao seu redor te olham de maneira.. assassina. Mesmo assim.. você decide continuar</button>
+    </div>
+    <div class="passo" id="passo-13">
+        <p>Com um leve temor no coração, você segue em frente. Porém, quando você chega, você logo é barrado pelos guardas reais do lugar. Você explica que Dante havia te mandado para cá e que você era alguém muito poderoso e iria conversar com o rei. Os guardas te olham, eles haviam recebido a mensagem de Dante, então, eles te deixam entrar<p>
+        <button class="btn-proximo" data-proximo="16">Você segue em frente, indo em direção a sala do trono, que foi indicada pelos guardas</button>
+    </div>
+    <div class="passo" id="passo-14">
+        <img src="img/vila2.0.png" alt="">
+        <p>Quando você chega a sala do trono, você vê uma espécie de portal azul aberto atrás do trono, mas decidi ficar em silêncio. Dante, então, te apresenta para o rei, explicando toda a sua situação. O rei, um homem compreensível, diz que tudo ficará bem, que não há nada o que temer. Ele explica sobre o reino, dizendo que era um reino de vampiros e que você, como um humano, não deveria estar ali, sendo algo perigoso. Por isso, o portal atrás do trono se torna uma cor roxa, e o rei te dá passagem, dizendo para você ir, antes que algum mal o acontecesse. Você agradece e se despede de Dante e do rei, embora completamente confuso e assustado sobre o fato do mundo vampírico existir. Por essa mesma razão, você não perde tempo e atravessa o portal, encontrando, do outro lado, a sua cidade, a sua vila e o seu povo. <p>
+       <h1>FINAL BOM.</h1>
+    </div>
+    <div class="passo" id="passo-15">
+        <img src="img/reinodanoiteterNA.png" alt="">
+        <p>Você segue Dante, ainda assustado e tentando se manter o mais longe possível das pessoas daquele castelo. Quando você chega a sala do trono, você nota o lugar com uma aparência escura. Então, os seus olhos vão para o rei, você nota a sua aparência, ele era tão.. mas tão pálido. Você fica assustado ao perceber a realidade do lugar em que se encontra. Essas pessoas não eram humanas.. eram vampiros. Quando Dante estava prestes a te apresentar ao rei, você vê uma oportunidade de correr e fugir, sendo a sua única saida aquele portal. Então, num ato de desespero, você corre e atravessa aquele portal azul, enquanto você corria, era possível ouvir a voz de Dante gritando "NÃO!", porém, era tarde demais, você já tinha atravessado. Quando você chega ao outro lado do portal, aquele lugar.. o que era aquele lugar? Era um lugar escuro com uma única luz no centro, estranho.. Porem, quando você tenta voltar, o portal se fecha, o prendendo nesse mundo desconhecido para sempre.. <p>
+            <h1>FINAL ???</h1>
+    </div>
+    <div class="passo" id="passo-16">
+        <img src="img/fim.png" alt="">
+        <p>Você segue sozinho e quando chega a sala do trono, nota um portal azul aberto atrás dele, porém, você mantem a compostura e explica a situação, dizendo que estava ali a negócios, que você era alguém muito poderoso vindo de outro mundo. O rei, porém, te olha com indiferença, não acreditando em uma única palavra que sai de sua boca. Ele desconfia, achando que isso seria uma armadilha do reino da noite eterna, o reino que foi criado a partir da traição de alguém do seu próprio povo. Então, sem hesitação, o rei pede para que você se aproxime, o que você faz. Entretanto, ao se aproximar, o rei te fala "Você veio ao lugar errado, traidor" e antes que você possa reagir, ele te ataca, revelando a sua verdadeira forma, a sua forma vampírica, uma forma verdadeiramente poderosa, que te destroça antes mesmo de você ter a oportunidade de dizer mais alguma coisa. <p>
+            <h1>FINAL RUIM.</h1>
+    </div>
+
+
+
+    </main>
+    <script src="script.js"> </script>
+    
+</body>
+</html>
